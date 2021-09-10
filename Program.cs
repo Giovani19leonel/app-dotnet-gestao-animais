@@ -20,26 +20,28 @@ A classe deverá possuir métodos de acesso para permitir que o usuário armazen
          public static string tipo;
         static void Main(string[] args)
         {
+            System.Console.WriteLine("Seja bem vindo ao Programa de Controle de Animais!");
+            System.Console.WriteLine("\nTipos aceitos: (gato), (cachorro), (peixe)");
             while(i<5){
-                Console.WriteLine("{0} - Informe o nome e o tipo do seu animal:",i+1);
+                Console.WriteLine("\n{0} - Informe o nome e o tipo do seu animal:",i+1);
                 Funcao.nome();
                 Funcao.tipo();
             
             if(tipo=="cachorro")
             {
-                Console.WriteLine("{0} - Informe a cor e a especie:",i);
+                Console.WriteLine("\n{0} - Informe a cor e a especie:",i);
                 Cachorro.pele();
                 Cachorro.especie();
             }
             if(tipo=="gato")
             {   
-                Console.WriteLine("{0} - Informe a cor e a especie:",i);
+                Console.WriteLine("\n{0} - Informe a cor e a especie:",i);
                 Gato.pele();
                 Gato.especie();
             }
             if(tipo=="peixe")
             {
-                Console.WriteLine("{0} - Informe a cor e a especie:",i);
+                Console.WriteLine("\n{0} - Informe a cor e a especie:",i);
                 Peixe.pele();
                 Peixe.especie();
             }
@@ -48,7 +50,9 @@ A classe deverá possuir métodos de acesso para permitir que o usuário armazen
             for(Program.contador=0; Program.contador<5; Program.contador++)
             {
                 Funcao.impressao();
-            } 
+            }
+            System.Console.WriteLine("\nTotal de Animais:");
+            System.Console.WriteLine("\nCachorros:"+f+ "\n\nGatos:" +e+ "\n\nPeixes:"+d);
         }
         static public class Funcao
     {
@@ -69,18 +73,18 @@ A classe deverá possuir métodos de acesso para permitir que o usuário armazen
        static public void impressao()
        {
             Console.WriteLine("----------------------------------");
-            Console.WriteLine("{0} -", d);
+            Console.WriteLine("{0} -", contador+1);
             Console.WriteLine("nome:{0}, tipo:{1}, ", Program.nomes[contador], Program.tipos[contador]);
             if (Program.tipos[contador]=="peixe"){
-                Console.WriteLine("cor:{0}, especie:{1}", Peixe.cores[d], Peixe.especies[d]);
+                Console.WriteLine("cor: {0}, especie: {1}", Peixe.cores[d], Peixe.especies[d]);
                 d++;
             }
             if (Program.tipos[contador]=="gato"){
-                Console.WriteLine("cor:{0}, especie:{1}", Gato.cores[e], Gato.especies[e]);
+                Console.WriteLine("cor: {0}, especie: {1}", Gato.cores[e], Gato.especies[e]);
                 e++;
             }
             if (Program.tipos[contador]=="cachorro"){
-                Console.WriteLine("cor:{0}, especie:{1}", Cachorro.cores[f], Cachorro.especies[f]);
+                Console.WriteLine("cor: {0}, especie: {1}", Cachorro.cores[f], Cachorro.especies[f]);
                 f++;
             }
        }
