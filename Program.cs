@@ -13,6 +13,7 @@ A classe deverá possuir métodos de acesso para permitir que o usuário armazen
 {
     class Program
     {
+        
         static string [] nomes = new string[5];
         static string [] tipos = new string[5];
          public static int i=0, p=0, a=0, b=0, c=0, d=0,e=0,f=0, contador=0;
@@ -46,13 +47,18 @@ A classe deverá possuir métodos de acesso para permitir que o usuário armazen
                 Peixe.especie();
             }
             }
-            
+            System.Console.WriteLine("\nDeseja visualizar o que foi armazenado? 1-sim 2-não");
+            int resposta; resposta=int.Parse(Console.ReadLine());
+            if (resposta==1)
+            {
             for(Program.contador=0; Program.contador<5; Program.contador++)
             {
                 Funcao.impressao();
             }
+            }
             System.Console.WriteLine("\nTotal de Animais:");
             System.Console.WriteLine("\nCachorros:"+f+ "\n\nGatos:" +e+ "\n\nPeixes:"+d);
+            System.Console.WriteLine("\nObrigado por utilizar o Programa!!!");
         }
         static public class Funcao
     {
