@@ -1,0 +1,16 @@
+C:\Users\Giovani\Documents\GitHub\teste\obj\Debug\net5.0\teste.csprojAssemblyReference.cache
+C:\Users\Giovani\Documents\GitHub\teste\obj\Debug\net5.0\teste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giovani\Documents\GitHub\teste\obj\Debug\net5.0\teste.AssemblyInfoInputs.cache
+C:\Users\Giovani\Documents\GitHub\teste\obj\Debug\net5.0\teste.AssemblyInfo.cs
+C:\Users\Giovani\Documents\GitHub\teste\obj\Debug\net5.0\teste.csproj.CoreCompileInputs.cache
+C:\Users\Giovani\Documents\GitHub\teste\bin\Debug\net5.0\teste.exe
+C:\Users\Giovani\Documents\GitHub\teste\bin\Debug\net5.0\teste.deps.json
+C:\Users\Giovani\Documents\GitHub\teste\bin\Debug\net5.0\teste.runtimeconfig.json
+C:\Users\Giovani\Documents\GitHub\teste\bin\Debug\net5.0\teste.runtimeconfig.dev.json
+C:\Users\Giovani\Documents\GitHub\teste\bin\Debug\net5.0\teste.dll
+C:\Users\Giovani\Documents\GitHub\teste\bin\Debug\net5.0\ref\teste.dll
+C:\Users\Giovani\Documents\GitHub\teste\bin\Debug\net5.0\teste.pdb
+C:\Users\Giovani\Documents\GitHub\teste\obj\Debug\net5.0\teste.dll
+C:\Users\Giovani\Documents\GitHub\teste\obj\Debug\net5.0\ref\teste.dll
+C:\Users\Giovani\Documents\GitHub\teste\obj\Debug\net5.0\teste.pdb
+C:\Users\Giovani\Documents\GitHub\teste\obj\Debug\net5.0\teste.genruntimeconfig.cache
